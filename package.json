@@ -1,0 +1,22 @@
+{
+  "name": "web-017-szhbanov",
+  "version": "1.0.0",
+  "description": "test app for web app course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "serve": "nodemon index.js"
+  },
+  "author": "szhbanov",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "resolve": {
+    "express": "4.17.1"
+  }
+}
