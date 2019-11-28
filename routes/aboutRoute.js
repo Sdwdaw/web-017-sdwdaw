@@ -2,7 +2,8 @@ const express = require("express");
 const aboutRouter = new express.Router();
 
 aboutRouter.get('/', function (req, res) {
-    res.json({ message: 'This is about page' });
+    // res.json({ message: 'This is about page' });
+    res.render('pages/about');
 });
 
 aboutRouter.get('/users', function (req, res) {

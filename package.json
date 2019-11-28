@@ -6,12 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "serve": "nodemon index.js"
+    "serve": "nodemon -e js,pug,css index.js"
   },
   "author": "szhbanov",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.1"
+    "nodemon": "^2.0.1",
+    "pug": "^2.0.4"
   },
   "dependencies": {
     "express": "^4.17.1"

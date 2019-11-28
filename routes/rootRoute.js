@@ -23,11 +23,4 @@ rootRouter.get('/users/:index', function (req, res) {
     }
 });
 
-rootRouter.get('*', function (req, res) {
-    console.log("No such route");
-    res
-    .status(404)
-    .send("No such route");
-});
-
 module.exports = rootRouter;
